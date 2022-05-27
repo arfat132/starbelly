@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <footer className="p-4 shadow md:px-6 md:py-8 bg-[url('/src/components/Home/Banner/banner-1.jpg)]">
+        <footer className="p-4 shadow md:px-6 md:py-8 bg-[url(/src/components/Home/Banner/footer-image.jpg)]">
             <div className="sm:flex sm:items-center sm:justify-between">
                 <Link to="https://flowbite.com" className="flex items-center mb-4 sm:mb-0">
                     <span className="self-center text-2xl font-bold whitespace-nowrap text-red-800">STARBELLY</span>

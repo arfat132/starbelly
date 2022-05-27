@@ -13,22 +13,22 @@ const Counter = () => {
                     <div class="p-4 sm:w-1/4 w-1/1 -mt-16">
                         <img className='w-48 mx-auto mb-2 ' src={cap} alt="" srcSet="" />
                         <p class="leading-relaxed font-mono font-bold text-3xl">Menu</p>
-                        <h2 class="title-font font-medium sm:text-4xl text-3xl text-red-700"><CountUp end={234} /></h2>
+                        <h2 class="title-font font-medium sm:text-4xl text-3xl text-red-700"><CountUp end={234} />k+</h2>
                     </div>
                     <div class="p-4 sm:w-1/4 w-1/1 justify-center">
                         <img className='w-48 mx-auto  justify-center' src={breakfast} alt="" srcSet="" />
                         <p class="leading-relaxed font-mono font-bold text-3xl">Breakfast</p>
-                        <h2 class="title-font font-medium sm:text-4xl text-3xl text-red-700"><CountUp end={542} /></h2>
+                        <h2 class="title-font font-medium sm:text-4xl text-3xl text-red-700"><CountUp end={542} />k+</h2>
                     </div>
                     <div class="p-4 sm:w-1/4 w-1/1">
                         <img className='w-48 mx-auto  justify-center' src={lunch} alt="" srcSet="" />
                         <p class="leading-relaxed font-mono font-bold text-3xl">Lunch</p>
-                        <h2 class="title-font font-medium sm:text-4xl text-3xl text-red-700"><CountUp end={344} /></h2>
+                        <h2 class="title-font font-medium sm:text-4xl text-3xl text-red-700"><CountUp end={344} />k+</h2>
                     </div>
                     <div class="p-4 sm:w-1/4 w-1/1">
                         <img className='w-48 mx-auto  justify-center' src={dinner} alt="" srcSet="" />
                         <p class="leading-relaxed font-mono font-bold text-3xl">Dinner</p>
-                        <h2 class="title-font font-medium sm:text-4xl text-3xl text-red-700"><CountUp end={657} /></h2>
+                        <h2 class="title-font font-medium sm:text-4xl text-3xl text-red-700"><CountUp end={657} />k+</h2>
 
                     </div>
                 </div>
