@@ -5,7 +5,7 @@ const Breakfast = () => {
     const [breakfasts, setBreakfast] = useState([]);
 
     useEffect(() => {
-        fetch('menu.json')
+        fetch('http://localhost:5000/foods')
             .then(res => res.json())
             .then(data => setBreakfast(data.filter(food => food.category.includes('breakfast'))))
     }, [breakfasts])

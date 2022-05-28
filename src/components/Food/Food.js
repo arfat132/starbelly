@@ -2,8 +2,12 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const Food = ({ selectedFood }) => {
-    const { name, img, price, ratings } = selectedFood;
+    const {_id, name, img, price, ratings } = selectedFood;
     const navigate = useNavigate();
+
+    const navigateToDetails = id => {
+        navigate(`/menuDetails/${id}`);
+    }
     return (
         <div className="p-4 md:w-1/4 font-mono ">
             <div className="h-full border-2 bg-gray-50 border-gray-200 border-opacity-60 overflow-hidden hover:border-2 hover:border-red-700 hover:shadow-xl">
@@ -19,7 +23,7 @@ const Food = ({ selectedFood }) => {
                     </div>
                     <div className="flex justify-between items-center">
                         <span className="text-2xl font-medium text-gray-900">${price}</span>
-                        <button onClick={()=>navigate('/menuDetails')} className='bg-red-700 text-white uppercase px-4 py-2 font-bold'>Details</button>
+                        <button onClick={() => navigateToDetails(_id)} className='bg-red-700 text-white uppercase px-4 py-2 font-bold'>Details</button>
                     </div>
 
                 </div>
