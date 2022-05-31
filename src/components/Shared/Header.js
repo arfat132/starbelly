@@ -30,7 +30,7 @@ const Header = () => {
                             :
                             <Link to="/signIn" className="block py-3 pl-3 text-center"><FaRegUserCircle /></Link>
                     }
-                     <Link to="/login" className="block py-3 pr-4 pl-3 "><GrCart /></Link>
+                     <Link to="/orderProcessing" className="block py-3 pr-4 pl-3 "><GrCart /></Link>
                 </div>
             </div>
         </nav>

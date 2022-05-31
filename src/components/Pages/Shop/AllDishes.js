@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import useCart from '../../Hooks/useCart';
 import Food from '../../Shared/Food';
 
 const AllDishes = () => {
+    const [cart, setCart] = useCart();
     const [allDishes, setDishes] = useState([]);
     const [limit, setLimit] = useState(4);
     const [sort, setSort] = useState([]);
@@ -13,8 +14,8 @@ const AllDishes = () => {
             .then(data => setDishes(data))
     }, [sort, limit, pageNumber])
 
-    console.log(sort)
-    
+    console.log(cart.length)
+
     return (
         <>
             <div>

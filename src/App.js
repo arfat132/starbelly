@@ -6,7 +6,7 @@ import MenuDetails from './components/Pages/MenuDetails/MenuDetails';
 import Breakfast from './components/Pages/Home/Menu/Breakfast';
 import Lunch from './components/Pages/Home/Menu/Lunch';
 import Dinner from './components/Pages/Home/Menu/Dinner';
-import Shipping from './components/Pages/Shipping/Shipping';
+import Shipping from './components/Pages/OrderProcessing/Shipping/Shipping';
 import Shop from './components/Pages/Shop/Shop';
 import LowToHigh from './components/Pages//Shop/Category/LowToHigh';
 import IndianDishes from './components/Pages//Shop/Category/IndianDishes';
@@ -19,6 +19,9 @@ import OneToHundred from './components/Pages/Shop/ShopByPrice/OneToHundred';
 import ThreeHundredToFiveHundred from './components/Pages/Shop/ShopByPrice/ThreeHundredToFiveHundred';
 import HundredToThreeHundred from './components/Pages/Shop/ShopByPrice/HundredToThreeHundred';
 import FiveHundredToThousand from './components/Pages/Shop/ShopByPrice/FiveHundredToThousand';
+import OrderProcessing from './components/Pages/OrderProcessing/OrderProcessing';
+import Checkout from './components/Pages/OrderProcessing/Checkout/Checkout';
+import Orders from './components/Pages/Orders/Orders';
 function App() {
   return (
     <div>
@@ -40,11 +43,20 @@ function App() {
           <Route path="fiveHundredToThousand" element={<FiveHundredToThousand></FiveHundredToThousand>}></Route>
         </Route>
         <Route path="/lowtohigh" element={<LowToHigh></LowToHigh>}></Route>
-        <Route path="/shipping" element={
-          <RequireAuth>
-            <Shipping/>
-          </RequireAuth>
-        } />
+        <Route path="/orderProcessing" element={<OrderProcessing />} >
+          <Route index element={<Orders></Orders>}></Route>
+          <Route path="checkout" element={
+            <RequireAuth>
+              <Checkout />
+            </RequireAuth>
+          } />
+          <Route path="shipping" element={
+            <RequireAuth>
+              <Shipping />
+            </RequireAuth>
+          } />
+
+        </Route>
         <Route path="/signUp" element={<SignUp />} />
         <Route path="/signIn" element={<SignIn />} />
         <Route path="/menuDetails/:id" element={<MenuDetails />} />

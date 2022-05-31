@@ -1,10 +1,11 @@
 import React from 'react';
-import useCart from '../../Hooks/useCart';
-import { removeFromDb } from './Utilities/AddToDb';
-import Cart from './Cart';
-import OrderSummery from './OrderSummery';
+import useCart from '../../../Hooks/useCart';
+import Cart from '../../Orders/Cart';
+import { removeFromDb } from '../../Orders/Utilities/AddToDb';
+import CheckoutPayment from './CheckoutPayment';
 
-const Orders = () => {
+
+const Checkout = () => {
     const [cart, setCart] = useCart();
     const handleRemoveFood = food => {
         const rest = cart.filter(pd => pd._id !== food._id);
@@ -25,10 +26,11 @@ const Orders = () => {
             </div>
             <div className=''>
                 <h1 className='font-bold text-2xl ml-5'>Order Summary</h1>
-               <OrderSummery cart={cart}></OrderSummery>
+               <CheckoutPayment cart={cart}></CheckoutPayment>
             </div>
         </div>
+   
     );
 };
 
-export default Orders;
+export default Checkout;

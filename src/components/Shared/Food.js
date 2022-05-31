@@ -1,12 +1,31 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import useCart from '../Hooks/useCart';
+import { addToDb } from '../Pages/Orders/Utilities/AddToDb';
 
-const Food = ({ selectedFood, handleAddToCart }) => {
+const Food = ({ selectedFood }) => {
     const { _id, name, img, price, ratings } = selectedFood;
     const navigate = useNavigate();
-
+    const [cart, setCart] = useCart();
     const navigateToDetails = id => {
         navigate(`/menuDetails/${id}`);
+    }
+    const handleAddToCart = (selectedFood) =>{
+        console.log(selectedFood);
+        let newCart = [];
+        const exists = cart.find(food => food._id === selectedFood._id);
+        if(!exists){
+            selectedFood.quantity = 1;
+            newCart = [...cart, selectedFood];
+        }
+        else{
+            const rest = cart.filter(product => product._id !== selectedFood._id);
+            exists.quantity = exists.quantity + 1;
+            newCart = [...rest, exists];
+        }
+        
+        setCart(newCart);
+        addToDb(selectedFood._id);
     }
     return (
         <div className="p-4 md:w-1/4 font-mono ">
@@ -22,6 +41,7 @@ const Food = ({ selectedFood, handleAddToCart }) => {
                         <hr className='border-red-700 h-px w-full ml-2 mt-1' />
                     </div>
                     <div className="flex justify-between items-center">
+                       <button onClick={() => handleAddToCart(selectedFood)}>add</button>
                         <span className="text-2xl font-medium text-gray-900">${price}</span>
                         <button onClick={() => navigateToDetails(_id)} className='bg-red-700 text-white uppercase px-4 py-2 font-bold'>Details</button>
                     </div>

@@ -1,12 +1,14 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import PaymentDetails from './PaymentDetails';
 const Shipping = () => {
-
     const { register, formState: { errors }, handleSubmit } = useForm();
     const onSubmit = data => console.log(data);
+
     return (
-        <div className='py-20 flex'>
-            <form onSubmit={handleSubmit(onSubmit)} className="w-50 mx-auto p-5 m-20">
+        <div className='px-20 grid grid-cols-7'>
+            <form onSubmit={handleSubmit(onSubmit)} className="col-span-4 p-10">
+                <h1 className='text-gray-600 font-semibold text-lg mb-5'>Shipping Address</h1>
                 <div className='flex'>
                     <input
                         className="mb-5 mr-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm block w-full p-2.5"
@@ -20,21 +22,12 @@ const Shipping = () => {
                 </div>
 
                 <input
+                    type='text'
                     className="bg-gray-50 border border-gray-300 text-gray-900 text-sm block w-full p-2.5"
                     placeholder='Address'
-                    {...register("address", {
-                        required: {
-                            value: true,
-                            message: 'Email is Required'
-                        },
-                        pattern: {
-                            value: /[a-z0-9]+@[a-z]+\.[a-z]{2,3}/,
-                            message: 'Provide a valid Email'
-                        }
-                    })} />
+                    {...register("address", { required: true })} />
                 <label className="label">
-                    {errors.email?.type === 'required' && <span className="label-text-alt text-red-500">{errors.email.message}</span>}
-                    {errors.email?.type === 'pattern' && <span className="label-text-alt text-red-500">{errors.email.message}</span>}
+                    {errors.address?.type === 'required' && "Address is required"}
                 </label>
                 <div >
                     <input
@@ -45,16 +38,11 @@ const Shipping = () => {
                             required: {
                                 value: true,
                                 message: 'Password is Required'
-                            },
-                            minLength: {
-                                value: 8,
-                                message: 'Must be 8 characters'
                             }
                         })}
                     />
                     <label className="label">
                         {errors.password?.type === 'required' && <span className="label-text-alt text-red-500">{errors.password.message}</span>}
-                        {errors.password?.type === 'minLength' && <span className="label-text-alt text-red-500">{errors.password.message}</span>}
                     </label>
                 </div>
                 <div className='flex'>
@@ -70,11 +58,12 @@ const Shipping = () => {
                 </div>
                 <input
                     className="border border-gray-300 bg-red-700 text-white text-sm uppercase font-bold block w-full p-2.5"
-                    type="submit" value="Continue Shopping" />
+                    type="submit" value="Submit Address" />
 
             </form>
-            <div className='w-50'>
-
+            <div className='col-span-3 pt-12 pr-3'>
+                <h1 className='text-gray-600 font-semibold text-lg mb-3 ml-4'>Payment Details</h1>
+                <PaymentDetails></PaymentDetails>
             </div>
         </div>
     );
