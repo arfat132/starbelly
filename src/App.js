@@ -1,7 +1,7 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/Pages/Home/Home';
-import Header from './components/Shared/Header';
+import Navbar from './components/Shared/Navbar';
 import MenuDetails from './components/Pages/MenuDetails/MenuDetails';
 import Breakfast from './components/Pages/Home/Menu/Breakfast';
 import Lunch from './components/Pages/Home/Menu/Lunch';
@@ -25,7 +25,7 @@ import Orders from './components/Pages/Orders/Orders';
 function App() {
   return (
     <div>
-      <Header></Header>
+      <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} >
           <Route index element={<Breakfast></Breakfast>}></Route>

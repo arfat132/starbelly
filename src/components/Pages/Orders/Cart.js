@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-
-const Cart = ({ food }) => {
+import { RiDeleteBin6Line } from "@react-icons/all-files/ri/RiDeleteBin6Line";
+const Cart = ({ food, handleRemoveFood }) => {
     const { _id, name, img, price, ratings, quantity, category } = food;
     const navigate = useNavigate();
 
@@ -15,18 +15,21 @@ const Cart = ({ food }) => {
             </div>
 
             <div className="pl-6 w-full">
-                <span className="text-yellow-400 text-xl font-semibold py-2 roundedml-3 capitalize text-shadow-md">{ratings}</span>
+                <div className='flex justify-between items-center'>
+                    <span className="text-yellow-400 text-xl font-semibold py-2 roundedml-3 capitalize text-shadow-md">{ratings}</span>
+                    <button onClick={() => handleRemoveFood(food)} className="text-red-700 font-bold rounded text-xl  p-1 text-center"><RiDeleteBin6Line /></button>
+                </div>
                 <h5 className="text-xl font-semibold tracking-tight text-gray-90 mb-1">{name}</h5>
                 <p className='mb-2'>{category}</p>
                 <span className="text-xl font-bold text-gray-900">${price}</span>
                 <div className='mx-auto my-4'>
-                    <button  className='bg-red-700 px-4 py-1 border border-red-700 text-white'>-</button>
+                    <button className='bg-red-700 px-4 py-1 border border-red-700 text-white'>-</button>
                     <button className='px-4 py-0.5 border border-red-700 font-medium text-lg mt-1'>{quantity}</button>
                     <button className='bg-red-700 px-4 py-1 border border-red-700 text-white'>+</button>
                 </div>
                 <div className='flex justify-between items-center'>
-                <p className='font-bold text-lg'>Total: ${price * quantity}</p>
-                <button onClick={() => navigateToDetails(_id)} className='bg-red-700 text-white uppercase px-4 py-2 font-bold'>Details</button>
+                    <p className='font-bold text-lg'>Total: ${price * quantity}</p>
+                    <button onClick={() => navigateToDetails(_id)} className='bg-red-700 text-white uppercase px-4 py-2 font-bold'>Details</button>
                 </div>
             </div>
         </div>

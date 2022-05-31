@@ -17,7 +17,7 @@ const SignIn = () => {
     const [showPass, setShowPass] = useState(false);
 
     const onSubmit = data => {
-        console.log(data);
+        signInWithEmailAndPassword(data.email, data.password);
     };
 
     let signInError;
@@ -42,7 +42,7 @@ const SignIn = () => {
     return (
         <div className='py-36'>
             < div className="w-[450px] p-8 mx-auto border-2 border-red-700 bg-gray-50 items-center text-center shadow-xl rounded-xl">
-                <h1 className='w-56 text-center rounded p-2 mx-auto mb-8 mt-[-50px] bg-red-700 text-white font-medium text-xl'>Sign Up</h1>
+                <h1 className='w-56 text-center rounded p-2 mx-auto mb-8 mt-[-50px] bg-red-700 text-white font-medium text-xl'>Sign In</h1>
                 <div className="avatar mb-8 z-0">
                     <div className="w-28 rounded-full ring ring-red-700 ring-offset-base-100 ring-offset-2">
                         <img src="https://i.ibb.co/st4Ch75/images-q-tbn-ANd9-Gc-TSA8-Zv-Pt-HJwme-J54-Hntqc-Nqnh2r0m-Mqmw-IYNp2-XS4-KET5-Y9-JJz-Kj-Hk7f-Xe-Gf-De.jpg" alt='' />
@@ -95,7 +95,7 @@ const SignIn = () => {
                     </div>
                     <input
                         className="border border-gray-300 bg-red-700 text-white text-sm uppercase font-bold rounded-lg block w-full p-2.5"
-                        type="submit" value="Sign Up" />
+                        type="submit" value="Sign In" />
 
                 </form>
                 <div className='flex font-bold items-center my-3 text-red-700'>
