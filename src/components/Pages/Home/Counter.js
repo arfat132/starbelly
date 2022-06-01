@@ -7,7 +7,7 @@ import dinner from '../../Assests/icons/dinner.png';
 
 const Counter = () => {
     return (
-        <div class="hero my-10 h-[550px] bg-[url(https://i.ibb.co/KFd0cdL/summery.png)]">
+        <div class="hero my-10 h-[450px] bg-[url(https://i.ibb.co/tP5dvP4/footer1.png)]">
             <div class="flex flex-wrap text-center">
                 <div class="p-4 sm:w-1/4 w-1/1 -mt-16">
                     <img className='w-[50px] bg-red-700 text-white mx-auto mb-2 ' src={cap} alt="" srcSet="" />

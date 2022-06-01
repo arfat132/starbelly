@@ -72,7 +72,7 @@ const Navbar = () => {
                         <li> <Link to="/" className="block py-3 pr-4 pl-3 " >Home</Link></li>
                         <li><Link to="/shop" className="block py-3 pr-4 pl-3  ">Shop</Link></li>
                         <li><Link to="/about" className="block py-3 pr-4 pl-3  ">Blog</Link></li>
-                        <li><Link to="/about" className="block py-3 pr-4 pl-3  ">FAQ</Link></li>
+                        <li><Link to="/faq" className="block py-3 pr-4 pl-3  ">FAQ</Link></li>
                         <li><Link to="/contact" className="block py-3 pr-4 pl-3 ">Contact</Link></li>
                         <div class="flex-none z-99">
                             <div class="dropdown dropdown-end">

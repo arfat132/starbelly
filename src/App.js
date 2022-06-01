@@ -22,6 +22,7 @@ import FiveHundredToThousand from './components/Pages/Shop/ShopByPrice/FiveHundr
 import OrderProcessing from './components/Pages/OrderProcessing/OrderProcessing';
 import Checkout from './components/Pages/OrderProcessing/Checkout/Checkout';
 import Orders from './components/Pages/Orders/Orders';
+import Faq from './components/Pages/Faq/Faq';
 function App() {
   return (
     <div>
@@ -57,6 +58,7 @@ function App() {
           } />
 
         </Route>
+        <Route path="/faq" element={<Faq />} />
         <Route path="/signUp" element={<SignUp />} />
         <Route path="/signIn" element={<SignIn />} />
         <Route path="/menuDetails/:id" element={<MenuDetails />} />
