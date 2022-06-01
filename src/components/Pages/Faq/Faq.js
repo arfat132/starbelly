@@ -3,10 +3,8 @@ import Footer from '../../Shared/Footer';
 const Faq = () => {
   return (
     <div>
-      <div className=''>
       <img className='pt-12 lg:h-full h-48' src="https://i.ibb.co/RvhwfGj/faq1.png" alt="" srcset="" />
       <h1 className='lg:text-5xl text-2xl mb-12 font-mono font-bold text-center text-white mt-[-80px]  lg:mt-[-180px]'>Frequently Asked Questions</h1>
-     </div>
       <section class="bg-white dark:bg-gray-900 px-12 lg:mt-16 ">
         <div class="container px-6 py-16 mx-auto">
           <div class="grid grid-cols-1 gap-8 lg:mt-16 md:grid-cols-2 xl:grid-cols-3">

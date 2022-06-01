@@ -23,6 +23,7 @@ import OrderProcessing from './components/Pages/OrderProcessing/OrderProcessing'
 import Checkout from './components/Pages/OrderProcessing/Checkout/Checkout';
 import Orders from './components/Pages/Orders/Orders';
 import Faq from './components/Pages/Faq/Faq';
+import Contact from './components/Pages/Contact/Contact';
 function App() {
   return (
     <div>
@@ -59,6 +60,7 @@ function App() {
 
         </Route>
         <Route path="/faq" element={<Faq />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/signUp" element={<SignUp />} />
         <Route path="/signIn" element={<SignIn />} />
         <Route path="/menuDetails/:id" element={<MenuDetails />} />
