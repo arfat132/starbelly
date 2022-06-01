@@ -1,0 +1,99 @@
+[
+    {
+        "name": "English Breakfast",
+        "price": 78,
+        "img": "https://i.ibb.co/Y8C9QWM/breakfast.jpg",
+        "description": "Fresh apples, celery and walnuts, dressed in mayonnaise"
+  
+    },
+  
+    {
+        "name": "Light Breakfast",
+        "price": 56,
+        "img": "https://i.ibb.co/qNfg7tv/breakfast-1.jpg",
+        "description": "Fresh apples, celery and walnuts, dressed in mayonnaise"
+  
+    },
+  
+    {
+        "name": "Heavy Breakfast",
+        "price": 420,
+        "img": "https://i.ibb.co/FhkQSyx/breakfast-2.jpg",
+        "description": "Fresh apples, celery and walnuts, dressed in mayonnaise"
+  
+    },
+  
+    {
+        "name": "Middle Breakfast",
+        "price": 35,
+        "img": "https://i.ibb.co/rp7Mv38/breakfast-3.jpg",
+        "description": "Fresh apples, celery and walnuts, dressed in mayonnaise"
+  
+    },
+  
+    {
+        "name": "English Lunch",
+        "price": 78,
+        "img": "https://i.ibb.co/zJ0QTfR/lunch.jpg",
+        "description": "Fresh apples, celery and walnuts, dressed in mayonnaise"
+  
+    },
+  
+    {
+        "name": "Light Lunch",
+        "price": 29,
+        "img": "https://i.ibb.co/wsmZmBV/lunch-1.jpg",
+        "description": "Fresh apples, celery and walnuts, dressed in mayonnaise"
+  
+    },
+  
+    {
+        "category": "lunch",
+        "name": "Heavy Lunch",
+        "price": 99,
+        "img": "https://i.ibb.co/1Kc9Nf0/lunch-2.jpg",
+        "description": "Fresh apples, celery and walnuts, dressed in mayonnaise"
+  
+    },
+  
+    {
+        "name": "Middle Lunch",
+        "price": 42,
+        "img": "https://i.ibb.co/DgqTrgw/lunch-3.jpg",
+        "description": "Fresh apples, celery and walnuts, dressed in mayonnaise"
+  
+    },
+  
+    {
+        "name": "English dinner",
+        "price": 30,
+        "img": "https://i.ibb.co/Pm7XBp7/dinner.jpg",
+        "description": "Fresh apples, celery and walnuts, dressed in mayonnaise"
+  
+    },
+  
+    {
+        "name": "Light Dinner",
+        "price": 20,
+        "img": "https://i.ibb.co/NWkzdMH/dinner-1.jpg",
+        "description": "Fresh apples, celery and walnuts, dressed in mayonnaise"
+  
+    },
+  
+    {
+        "name": "Heavy Dinner",
+        "price": 120,
+        "img": "https://i.ibb.co/mBFWLTP/dinner-2.jpg",
+        "description": "Fresh apples, celery and walnuts, dressed in mayonnaise"
+  
+    },
+  
+    {
+        "name": "Middle Dinner",
+        "price": 40,
+        "img": "https://i.ibb.co/mGNR7R9/dinner-3.jpg",
+        "description": "Fresh apples, celery and walnuts, dressed in mayonnaise"
+  
+    }
+  ]
+  

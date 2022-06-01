@@ -3,7 +3,7 @@ import useCart from '../../Hooks/useCart';
 import Food from '../../Shared/Food';
 
 const AllDishes = () => {
-    const [cart, setCart] = useCart();
+    const [cart] = useCart();
     const [allDishes, setDishes] = useState([]);
     const [limit, setLimit] = useState(4);
     const [sort, setSort] = useState([]);

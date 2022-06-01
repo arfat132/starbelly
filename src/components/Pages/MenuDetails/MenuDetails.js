@@ -100,8 +100,8 @@ const MenuDetails = () => {
               <hr />
               <p className='my-6'>Shipping, taxes, and discounts will be calculated at checkout.</p>
               <hr className='mb-6' />
-              <button onClick={() => navigate('/shipping')} className='bg-red-700 text-white py-2 mb-3'>Checkout</button>
-              <button className='bg-red-700 text-white py-2'>View Cart</button>
+              <button onClick={() => navigate('/orderProcessing/checkout')} className='bg-red-700 text-white py-2 mb-3'>Checkout</button>
+              <button onClick={() => navigate('/orderProcessing')} className='bg-red-700 text-white py-2'>View Cart</button>
             </div>
           </ul>
         </div>

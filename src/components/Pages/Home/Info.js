@@ -7,7 +7,7 @@ import food from '../../Assests/icons/food.png';
 const Info = () => {
     return (
         <section class="text-gray-900 body-font px-12">
-            <div class="container px-5 py-24 mx-auto">
+            <div class="container px-5 pb-20 mx-auto">
                 <div class="flex flex-wrap text-center font-mono">
                     <div class="p-4 sm:w-1/4 w-1/1">
                         <img className='w-24 h-24  mx-auto mb-2' src={foodBusket} alt="" srcSet="" />
