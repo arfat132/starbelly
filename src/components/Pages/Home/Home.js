@@ -13,13 +13,13 @@ const Home = () => {
     return (
         <div>
             <div>
-                <div class="hero h-[900px] bg-[url(https://i.ibb.co/n39zKXK/banner4.png)]">
+                <div class="hero h-[500px]  lg:h-[900px] bg-[url(https://i.ibb.co/n39zKXK/banner4.png)]">
                     <div class="hero-overlay bg-opacity-0"></div>
                     <div class="hero-content text-left text-neutral-content sm:ml-0 lg:ml-[-650px] lg:w-[700px]">
-                        <div class="">
+                        <div class="-z-50">
                             <h1 class="mb-5 text-2xl lg:text-5xl font-bold font-mono text-red-700">Enjoy delicious foods <br />with Starbelly</h1>
                             <p class="mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis repellat culpa itaque consequatur accusamus enim perspiciatis maxime numquam doloribus.</p>
-                            <button onClick={()=>navigate('/shop')} className='px-4 py-2 uppercase bg-red-700'>View All Dishes</button>
+                            <button onClick={()=>navigate('/shop')} className='-z-50 px-4 py-2 uppercase bg-red-700'>View All Dishes</button>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ const Home = () => {
             <div>
             <h1 className='text-center font-mono font-bold text-2xl'>Our Flavourful Dishes</h1>
             <p className='text-center text-gray-600 mt-2 mx-auto mb-9 lg:px-96 px-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sint officiis animi, temporibus itaque molestias commodi ex quis harum voluptatum.</p>
-                <nav class="tabs px-20 mb-8">
+                <nav class="tabs lg:px-20 px-14 mb-8">
                     <NavLink className={({ isActive }) =>
                         isActive ? "tab tab-lifted tab-active bg-red-700 text-red-700 font-bold uppercase font-5xl" : "tab tab-lifted text-gray-600 font-bold uppercase font-5xl"
                     }

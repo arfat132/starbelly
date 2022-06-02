@@ -7,7 +7,7 @@ const MakesSpecial = () => {
         <section class="text-gray-700 body-font px-12">
             <div class="container mx-auto px-5 mb-16 grid lg:grid-cols-2 sm:grid-cols-1 my-6 items-center gap-5">
                 <div>
-                    <h1 className='font-mono font-bold text-4xl pl-3 mb-5'>What Makes Our Menus Special ?</h1>
+                    <h1 className='font-mono font-bold text-2xl lg:text-4xl pl-0 lg:pl-3 mb-5'>What Makes Our Menus Special ?</h1>
                     <div className="flex items-center font-mono md:w-1/1 mx-auto mb-5">
                         <div className=''>
                             <img className="w-40 object-cover object-center " src={vegetables} alt="" />
