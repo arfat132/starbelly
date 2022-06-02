@@ -42,7 +42,7 @@ const Home = () => {
             <MenuList></MenuList>
             <div>
             <h1 className='text-center font-mono font-bold text-2xl'>Our Flavourful Dishes</h1>
-            <p className='text-center text-gray-600 mt-2 mx-auto mb-9 px-96'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sint officiis animi, temporibus itaque molestias commodi ex quis harum voluptatum.</p>
+            <p className='text-center text-gray-600 mt-2 mx-auto mb-9 lg:px-96 px-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sint officiis animi, temporibus itaque molestias commodi ex quis harum voluptatum.</p>
                 <nav class="tabs px-20 mb-8">
                     <NavLink className={({ isActive }) =>
                         isActive ? "tab tab-lifted tab-active bg-red-700 text-red-700 font-bold uppercase font-5xl" : "tab tab-lifted text-gray-600 font-bold uppercase font-5xl"
