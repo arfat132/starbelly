@@ -6,8 +6,8 @@ import { FiPhoneCall } from 'react-icons/fi';
 const Contact = () => {
     return (
         <div className='bg-white'>
-            <img className='pt-12 lg:h-full h-48' src="https://i.ibb.co/RvhwfGj/faq1.png" alt="" srcset="" />
-            <h1 className='lg:text-5xl text-2xl mb-12 font-mono font-bold text-center text-white mt-[-80px]  lg:mt-[-180px]'>Contact With Us</h1>
+            <img className='pt-6 lg:h-full h-48' src="https://i.ibb.co/RvhwfGj/faq1.png" alt="" srcset="" />
+            <h1 className='lg:text-5xl text-2xl mb-12 font-mono font-bold text-center text-white mt-[-80px]  lg:mt-[-160px]'>Contact With Us</h1>
             <div class="flex flex-wrap justify-between py-8 border border-gray-200  mt-40 mx-8 lg:mx-24 mb-10 bg-gray-50">
                 <div class="lg:w-1/3 px-6 flex items-center">
                     <TiLocationOutline className='text-8xl mr-2 text-red-700' />
