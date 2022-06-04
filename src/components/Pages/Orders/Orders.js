@@ -12,9 +12,9 @@ const Orders = () => {
         removeFromDb(food._id);
     }
     return (
-        <div className='shop-container px-20 grid grid-cols-3'>
-            <div className=" col-span-2">
-                <h1 className='font-bold text-2xl ml-5 mb-4'>Your Cart</h1>
+        <div className='px-4 lg:px-20 grid lg:grid-cols-3 grid-cols-1'>
+            <div className="lg:col-span-2 col-span-1">
+                <h1 className='font-bold text-2xl ml-0 lg:ml-5 mb-4'>Your Cart</h1>
                 {
                     cart.map(food => <Cart
                         key={food._id}

@@ -39,7 +39,7 @@ const MenuDetails = () => {
                   <span className='font-extrabold text-black text-4xl mb-6'>${menuDetails.price}</span>
                   <div className='mx-auto mb-6'>
                     <button onClick={() => setCount(count - 1)} className='bg-red-700 px-4 py-1 border border-red-700 text-white ml-12 '>-</button>
-                    <button className='px-4 py-0.5 border border-red-700 font-medium text-lg mt-1'>{count}</button>
+                    <button className='px-4 pb-[1.5px] border border-red-700 font-medium text-lg mt-1'>{count}</button>
                     <button onClick={() => setCount(count + 1)} className='bg-red-700 px-4 py-1 border border-red-700 text-white'>+</button>
                   </div>
                 </div>
@@ -89,7 +89,7 @@ const MenuDetails = () => {
               </div>
               <div className='mx-auto mb-6'>
                 <button onClick={() => setCount(count - 1)} className='bg-red-700 px-4 py-1 border border-red-700 text-white ml-12 '>-</button>
-                <button className='px-4 border border-red-700 font-sm text-lg'>{count}</button>
+                <button className='px-4 pb-[1.5px] border border-red-700 font-sm text-lg'>{count}</button>
                 <button onClick={() => setCount(count + 1)} className='bg-red-700 px-4 py-1 border border-red-700 text-white'>+</button>
               </div>
               <hr />

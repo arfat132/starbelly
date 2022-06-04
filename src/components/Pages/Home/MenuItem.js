@@ -4,7 +4,7 @@ const MenuItem = ({ menuItem }) => {
     const { name, img, description, price } = menuItem
     return (
         <div>
-            <div className="flex items-center font-mono md:w-1/1 h-24 mx-auto lg:ml-14 sm:ml-0">
+            <div className="flex items-center font-mono md:w-1/1 h-24 mx-auto lg:mx-0 md:mx-36  sm:mx-8">
                 <div className=''>
                     <img className="w-24 object-cover object-center " src={img} alt="" />
                 </div>

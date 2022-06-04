@@ -4,7 +4,7 @@ const Faq = () => {
   return (
     <div>
       <img className='pt-6 lg:h-full h-48' src="https://i.ibb.co/RvhwfGj/faq1.png" alt="" srcset="" />
-      <h1 className='lg:text-5xl text-2xl mb-12 font-mono font-bold text-center text-white mt-[-80px]  lg:mt-[-160px]'>Frequently Asked Questions</h1>
+      <h1 className='lg:text-5xl text-2xl mb-12 font-mono font-bold text-center text-white mt-[-94px]  lg:mt-[-140px] md:mt-[-94px]'>Frequently Asked Questions</h1>
       <section class="bg-white dark:bg-gray-900 px-12 lg:mt-16 ">
         <div class="container px-6 py-16 mx-auto">
           <div class="grid grid-cols-1 gap-8 lg:mt-16 md:grid-cols-2 xl:grid-cols-3">

@@ -7,9 +7,9 @@ const Contact = () => {
     return (
         <div className='bg-white'>
             <img className='pt-6 lg:h-full h-48' src="https://i.ibb.co/RvhwfGj/faq1.png" alt="" srcset="" />
-            <h1 className='lg:text-5xl text-2xl mb-12 font-mono font-bold text-center text-white mt-[-80px]  lg:mt-[-160px]'>Contact With Us</h1>
-            <div class="flex flex-wrap justify-between py-8 border border-gray-200  mt-40 mx-8 lg:mx-24 mb-10 bg-gray-50">
-                <div class="lg:w-1/3 px-6 flex items-center">
+            <h1 className='lg:text-5xl text-2xl mb-12 font-mono font-bold text-center text-white mt-[-94px]  lg:mt-[-140px] md:mt-[-94px]'>Contact With Us</h1>
+            <div class="flex flex-wrap justify-between py-8 border border-gray-200 md:mt-20  mt-40 mx-8 lg:mx-24 mb-10 bg-gray-50">
+                <div class="lg:w-1/3 md:w-1/3 px-6 flex items-center">
                     <TiLocationOutline className='text-8xl mr-2 text-red-700' />
                     <div>
                         <h2 class="title-font font-semibold text-red-700 tracking-widest text-sm mb-1">ADDRESS</h2>
@@ -17,7 +17,7 @@ const Contact = () => {
                             Baltimore, MD, California, USA 4508</p>
                     </div>
                 </div>
-                <div class="lg:w-1/3 px-6 mt-4 lg:mt-0 flex items-center">
+                <div class="lg:w-1/3 md:w-1/3 px-6 mt-4 lg:mt-0 flex items-center">
                     <MdOutlineAttachEmail className='text-5xl lg:text-7xl mr-3 text-red-700' />
                     <div>
                         <h2 class="title-font font-semibold text-red-700 tracking-widest text-sm mb-1">EMAIL</h2>
@@ -25,7 +25,7 @@ const Contact = () => {
                         <p class="leading-relaxed">starbelly123@email.com</p>
                     </div>
                 </div>
-                <div class="lg:w-1/3 px-6 mt-6 lg:mt-0 flex items-center">
+                <div class="lg:w-1/3 md:w-1/3 px-6 mt-6 lg:mt-0 flex items-center">
                     <FiPhoneCall className='text-4xl lg:text-6xl mr-5 lg:mr-4 text-red-700' />
                     <div>
                         <h2 class="title-font font-semibold text-red-700 tracking-widest text-sm mb-1">Phone</h2>
@@ -35,11 +35,11 @@ const Contact = () => {
                 </div>
             </div>
             <section class="text-gray-600 body-font relative">
-                <div class="container lg:px-24 px-8 pb-20 mx-auto flex sm:flex-nowrap flex-wrap">
+                <div class="container px-8 pb-20 mx-auto flex md:flex-nowrap sm:flex-nowrap flex-wrap">
                     <div class="lg:w-2/5 md:w-1/1 w-full bg-gray-300 overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                         <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"></iframe>
                     </div>
-                    <div class="lg:w-3/5 md:w-1/2 bg-gray-50 border border-gray-200 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 shadow-lg p-8">
+                    <div class="lg:w-3/5 md:w-1/1 bg-gray-50 border border-gray-200 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 shadow-lg p-8">
                         <h2 class="text-red-700 text-lg mb-1 font-medium title-font">Feedback</h2>
                         <p class="leading-relaxed mb-5 text-gray-600">Post-ironic portland shabby chic echo park, banjo fashion axe</p>
                         <div class="relative mb-4">

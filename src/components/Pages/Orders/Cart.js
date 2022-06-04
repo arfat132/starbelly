@@ -9,7 +9,7 @@ const Cart = ({ food, handleRemoveFood }) => {
         navigate(`/menuDetails/${id}`);
     }
     return (
-        <div className="p-4 m-6 sm:block lg:flex items-center mb-5 font-mono md:w-1/1 h-46 border-2 bg-gray-50 border-gray-200 border-opacity-60 overflow-hidden hover:border-2 hover:border-red-700 hover:shadow-xl">
+        <div className="p-4 m-6 block md:flex lg:flex items-center mb-5 font-mono md:w-1/1 h-46 border-2 bg-gray-50 border-gray-200 border-opacity-60 overflow-hidden hover:border-2 hover:border-red-700 hover:shadow-xl">
             <div className=''>
                 <img className="w-full object-cover object-center " src={img} alt="" />
             </div>
@@ -24,7 +24,7 @@ const Cart = ({ food, handleRemoveFood }) => {
                 <span className="text-xl font-bold text-gray-900">${price}</span>
                 <div className='mx-auto my-4'>
                     <button className='bg-red-700 px-4 py-1 border border-red-700 text-white'>-</button>
-                    <button className='px-4 py-0.5 border border-red-700 font-medium text-lg mt-1'>{quantity}</button>
+                    <button className='px-4 pb-[1.5px] border border-red-700 font-medium text-lg'>{quantity}</button>
                     <button className='bg-red-700 px-4 py-1 border border-red-700 text-white'>+</button>
                 </div>
                 <div className='flex justify-between items-center'>

@@ -9,7 +9,6 @@ import Dinner from './components/Pages/Home/Menu/Dinner';
 import Shipping from './components/Pages/OrderProcessing/Shipping/Shipping';
 import Shop from './components/Pages/Shop/Shop';
 import LowToHigh from './components/Pages//Shop/Category/LowToHigh';
-import IndianDishes from './components/Pages//Shop/Category/IndianDishes';
 import AllDishes from './components/Pages//Shop/AllDishes';
 import HighToLow from './components/Pages//Shop/Category/HighToLow';
 import RequireAuth from './components/Auth/RequireAuth';
@@ -25,6 +24,7 @@ import Orders from './components/Pages/Orders/Orders';
 import Faq from './components/Pages/Faq/Faq';
 import Contact from './components/Pages/Contact/Contact';
 import Blogs from './components/Pages/Blogs/Blogs';
+import Payment from './components/Pages/OrderProcessing/Payment/Payment';
 function App() {
   return (
     <div>
@@ -37,15 +37,15 @@ function App() {
         </Route>
         <Route path="/shop" element={<Shop />} >
           <Route index element={<AllDishes></AllDishes>}></Route>
-          <Route path="indianDishes" element={<IndianDishes></IndianDishes>}></Route>
-          <Route path="lowtohigh" element={<LowToHigh></LowToHigh>}></Route>
-          <Route path="highToLow" element={<HighToLow></HighToLow>}></Route>
+          <Route path="arabian" element={<AllDishes></AllDishes>}></Route>
+          <Route path="chainese" element={<LowToHigh></LowToHigh>}></Route>
+          <Route path="italian" element={<HighToLow></HighToLow>}></Route>
+          <Route path="thai" element={<HighToLow></HighToLow>}></Route>
           <Route path="oneToHundred" element={<OneToHundred></OneToHundred>}></Route>
           <Route path="hundredToThreeHundred" element={<HundredToThreeHundred></HundredToThreeHundred>}></Route>
           <Route path="threeHundredToFiveHundred" element={<ThreeHundredToFiveHundred></ThreeHundredToFiveHundred>}></Route>
           <Route path="fiveHundredToThousand" element={<FiveHundredToThousand></FiveHundredToThousand>}></Route>
         </Route>
-        <Route path="/lowtohigh" element={<LowToHigh></LowToHigh>}></Route>
         <Route path="/orderProcessing" element={<OrderProcessing />} >
           <Route index element={<Orders></Orders>}></Route>
           <Route path="checkout" element={
@@ -58,7 +58,11 @@ function App() {
               <Shipping />
             </RequireAuth>
           } />
-
+           <Route path="payment" element={
+            <RequireAuth>
+              <Payment />
+            </RequireAuth>
+          } />
         </Route>
         <Route path="/faq" element={<Faq />} />
         <Route path="/blogs" element={<Blogs />} />

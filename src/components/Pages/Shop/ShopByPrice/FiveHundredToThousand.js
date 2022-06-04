@@ -29,7 +29,7 @@ const FiveHundredToThousand = () => {
                     </select></p>
             </div>
             <section id='#services' className="text-gray-600 body-font pt-12 auto">
-                <div className="container px-20 pb-16 mx-auto">
+                <div className="container px-14 pb-16 mx-auto">
                     {allDishes?.length ?
                         <div className="flex flex-wrap -m-4 mb-6">
                             {

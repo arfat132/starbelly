@@ -4,7 +4,7 @@ import useCart from '../../../Hooks/useCart';
 
 const CheckoutPayment = () => {
     const navigate = useNavigate();
-const [cart] = useCart()
+    const [cart] = useCart()
     let total = 0;
     let shipping = 0;
     let quantity = 0;
@@ -24,7 +24,12 @@ const [cart] = useCart()
                 <p className='text-[16px] font-medium flex justify-between mb-2'>Tax 10% <span>${tax}</span></p>
                 <hr className='my-5' />
                 <p className='text-[16px] font-bold flex justify-between mb-4'>Total <span>${grandTotal}</span></p>
-                <button onClick={()=>navigate('/orderProcessing/shipping')} className='bg-red-700 w-full py-2 uppercase text-white mb-3'>Procced to Shipping</button>
+                {
+                    cart?.length > 0 ?
+                        <button onClick={() => navigate('/orderProcessing/shipping')} className='bg-red-700 w-full py-2 uppercase text-white mb-3'>Procced to Shipping</button>
+                        :
+                        <button disabled className='bg-gray-400 w-full py-2 uppercase text-white mb-3'>Procced to checkout</button>
+                }
             </div>
         </div>
     );

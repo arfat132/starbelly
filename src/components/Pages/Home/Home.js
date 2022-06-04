@@ -15,11 +15,11 @@ const Home = () => {
             <div>
                 <div class="hero h-[500px]  lg:h-[900px] bg-[url(https://i.ibb.co/n39zKXK/banner4.png)]">
                     <div class="hero-overlay bg-opacity-0"></div>
-                    <div class="hero-content text-left text-neutral-content sm:ml-0 lg:ml-[-650px] lg:w-[700px]">
+                    <div class="hero-content text-left text-neutral-content sm:ml-0 lg:ml-[-550px] lg:w-[700px] md:w-[700px]">
                         <div class="-z-50">
                             <h1 class="mb-5 text-2xl lg:text-5xl font-bold font-mono text-red-700">Enjoy delicious foods <br />with Starbelly</h1>
-                            <p class="mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis repellat culpa itaque consequatur accusamus enim perspiciatis maxime numquam doloribus.</p>
-                            <button onClick={()=>navigate('/shop')} className='-z-50 px-4 py-2 uppercase bg-red-700'>View All Dishes</button>
+                            <p class="mb-5 text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis repellat culpa itaque consequatur accusamus enim perspiciatis maxime numquam doloribus.</p>
+                            <button onClick={()=>navigate('/shop')} className='-z-50 px-4 py-2 text-white uppercase bg-red-700'>View All Dishes</button>
                         </div>
                     </div>
                 </div>
@@ -31,10 +31,10 @@ const Home = () => {
                     <div class="hero-overlay bg-opacity-0"></div>
                     <div class="hero-content text-center text-neutral-content">
                         <div class="">
-                            <h4 className='text-xl mb-2'>Enjoy Great Recipe</h4>
+                            <h4 className='text-xl mb-2 text-white'>Enjoy Great Recipe</h4>
                             <h1 class="mb-5 text-2xl lg:text-5xl font-bold font-mono text-red-700">Healthy And Delicious Food</h1>
-                            <h1  className='text-2xl mb-4'>Flat 50% Discount</h1>
-                            <button onClick={()=>navigate('/shop')} className='px-4 py-2 uppercase bg-red-700'>Shop Now</button>
+                            <h1  className='text-2xl mb-4 text-white'>Flat 50% Discount</h1>
+                            <button onClick={()=>navigate('/shop')} className='px-4 py-2 text-white uppercase bg-red-700'>Shop Now</button>
                         </div>
                     </div>
                 </div>

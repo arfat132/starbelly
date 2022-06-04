@@ -6,7 +6,7 @@ const Shipping = () => {
     const onSubmit = data => console.log(data);
 
     return (
-        <div className='px-20 grid grid-cols-7'>
+        <div className='lg:px-20 px-4 grid grid-cols-1 lg:grid-cols-7'>
             <form onSubmit={handleSubmit(onSubmit)} className="col-span-4 p-10">
                 <h1 className='text-gray-600 font-semibold text-lg mb-5'>Shipping Address</h1>
                 <div className='flex'>
@@ -62,7 +62,7 @@ const Shipping = () => {
 
             </form>
             <div className='col-span-3 pt-12 pr-3'>
-                <h1 className='text-gray-600 font-semibold text-lg mb-3 ml-4'>Payment Details</h1>
+                <h1 className='text-gray-600 font-semibold text-lg mb-3 ml-4                       '>Payment Details</h1>
                 <PaymentDetails></PaymentDetails>
             </div>
         </div>

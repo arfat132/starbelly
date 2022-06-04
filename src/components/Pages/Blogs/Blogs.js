@@ -13,7 +13,7 @@ const Blogs = () => {
     return (
         <div>
             <img className='pt-6 lg:h-full h-48' src="https://i.ibb.co/RvhwfGj/faq1.png" alt="" srcset="" />
-            <h1 className='lg:text-5xl text-2xl mb-12 font-mono font-bold text-center text-white mt-[-80px]  lg:mt-[-160px]'>Our Blogs</h1>
+            <h1 className='lg:text-5xl text-2xl mb-12 font-mono font-bold text-center text-white mt-[-94px] lg:mt-[-140px] md:mt-[-94px]'>Our Blogs</h1>
             <div className='px-0 lg:px-12 pt-10 flex'>
                 <div className='w-3/12 hidden lg:block'>
                     <h1 className='font-medium text-xl bg-red-700 px-2 py-1 text-white mb-2 mt-10'>Recent Articles</h1>

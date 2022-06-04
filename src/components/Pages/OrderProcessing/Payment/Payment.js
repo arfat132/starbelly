@@ -1,6 +1,6 @@
 import React from 'react';
 
-const IndianDishes = () => {
+const Payment = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const IndianDishes = () => {
     );
 };
 
-export default IndianDishes;
+export default Payment;

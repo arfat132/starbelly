@@ -2,7 +2,7 @@ import React from 'react';
 import { GoCalendar } from 'react-icons/go';
 const Blog = ({ blog }) => {
     const { name, img, description } = blog;
-    const date = new Date()
+    
     return (
         <div class="p-4 md:w-1/3">
             <div class="h-full border-2 border-gray-200 border-opacity-60 overflow-hidden">

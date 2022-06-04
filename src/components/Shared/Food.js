@@ -28,11 +28,11 @@ const Food = ({ selectedFood }) => {
         addToDb(selectedFood._id);
     }
     return (
-        <div className="p-4 md:w-1/4 font-mono text-center">
+        <div className="p-4 lg:w-1/4 md:w-2/4  font-mono text-center">
             <div className="h-full border-2 bg-gray-50 border-gray-200 border-opacity-60 overflow-hidden hover:border-2 hover:border-red-700 hover:shadow-xl">
                 <img className="w-full object-cover object-center h-60 " src={img} alt="blog" />
 
-                <div className="p-6">
+                <div className="p-2">
                     <span className="text-yellow-400 text-xl font-semibold py-2 roundedml-3 capitalize text-shadow-md">{ratings}</span>
                     <h5 className="text-xl font-semibold tracking-tight text-gray-900 mb-1">{name}</h5>
                     <span className="text-xl font-medium text-gray-900">${price}.00</span>
