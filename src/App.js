@@ -29,6 +29,7 @@ import ItalianDishes from './components/Pages/Shop/Category/ItalianDishes';
 import ChineseDishes from './components/Pages/Shop/Category/ChineseDishes';
 import Chicken from './components/Pages/Shop/ShoByMeat/Chicken';
 import Pasta from './components/Pages/Shop/ShoByMeat/Pasta';
+import Fish from './components/Pages/Shop/ShoByMeat/Fish';
 function App() {
   return (
     <div>
@@ -51,6 +52,7 @@ function App() {
           <Route path="fiveHundredToThousand" element={<FiveHundredToThousand></FiveHundredToThousand>}></Route>
           <Route path="chicken" element={<Chicken></Chicken>}></Route>
           <Route path="pasta" element={<Pasta></Pasta>}></Route>
+          <Route path="fish" element={<Fish></Fish>}></Route>
         </Route>
         <Route path="/orderProcessing" element={<OrderProcessing />} >
           <Route index element={<Orders></Orders>}></Route>
