@@ -34,7 +34,7 @@ const Food = ({ selectedFood }) => {
 
                 <div className="p-2">
                     <span className="text-yellow-400 text-xl font-semibold py-2 roundedml-3 capitalize text-shadow-md">{ratings}</span>
-                    <h5 className="text-xl font-semibold tracking-tight text-gray-900 mb-1">{name}</h5>
+                    <h5 className="text-xl font-semibold tracking-tight text-gray-900 mb-1 capitalize">{name}</h5>
                     <span className="text-xl font-medium text-gray-900">${price}.00</span>
                     <div className='flex font-bold items-center my-3'>
                         <hr className='border-red-700 h-px w-full mr-2 mt-1' />

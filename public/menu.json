@@ -1,134 +1,703 @@
  [
+    {
+        "category": "thai",
+        "name": "chrimp fried rice",
+        "price": 170,
+        "ratings": "★★★★",
+        "menu": "lunch",
+        "meat": "seafood",
+        "img": "https://i.ibb.co/1mcfpj1/thai-chrimp-fried-rice.jpg",
+        "shipping": 10
+    
+    },
+    
+    {
+        "category": "thai",
+        "name": "chrimp vegetable",
+        "price": 40,
+        "ratings": "★★★★",
+        "menu": "lunch",
+        "meat": "seafood",
+        "img": "https://i.ibb.co/PT8P41r/thai-chrimp-vegetable.jpg",
+        "shipping": 10
+    
+    },
+    
+    {
+        "category": "thai",
+        "name": "thai curry",
+        "price": 640,
+        "ratings": "★★★★",
+        "menu": "dinner",
+        "meat": "chicken",
+        "img": "https://i.ibb.co/qmjfDvD/thai-curry.jpg",
+        "shipping": 10
+    
+    },
+    
+    {
+        "category": "thai",
+        "name": "thai fish",
+        "price": 40,
+        "ratings": "★★★★",
+        "menu": "dinner",
+        "meat": "fish",
+        "img": "https://i.ibb.co/CvDrHwC/thai-fish.jpg",
+        "shipping": 10
+    
+    },
+    
+    {
+        "category": "thai",
+        "name": "fried rice",
+        "price": 40,
+        "ratings": "★★★★",
+        "menu": "lunch",
+        "meat": "rice",
+        "img": "https://i.ibb.co/d6fwQ6c/thai-fried-rice.jpg",
+        "shipping": 10
+    
+    },
+    
+    {
+        "category": "thai",
+        "name": "octopus squid",
+        "price": 175,
+        "ratings": "★★★★",
+        "menu": "lunch",
+        "meat": "seafood",
+        "img": "https://i.ibb.co/9T7wYKz/thai-octopus-squid.jpg",
+        "shipping": 10
+    
+    },
+    
+    {
+        "category": "thai",
+        "name": "pizza pasta",
+        "price": 40,
+        "ratings": "★★★★",
+        "menu": "lunch",
+        "meat": "pasta",
+        "img": "https://i.ibb.co/3k38HQp/thai-pizza-pasta.jpg",
+        "shipping": 10
+    
+    },
+    
+    {
+        "category": "thai",
+        "name": "ramen soup",
+        "price": 46,
+        "ratings": "★★★★",
+        "menu": "breakfast",
+        "meat": "soup",
+        "img": "https://i.ibb.co/cb6FprT/thai-ramen-soup.jpg",
+        "shipping": 10
+    
+    },
+    
+    {
+        "category": "thai",
+        "name": "vegetables salad",
+        "price": 87,
+        "ratings": "★★★★",
+        "menu": "breakfast",
+        "meat": "vegetables",
+        "img": "https://i.ibb.co/HFxbL3v/thai-vegetable-salad.jpg",
+        "shipping": 10
+    
+    },
+    
+    {
+        "category": "thai",
+        "name": "chrimp pasta",
+        "price": 340,
+        "ratings": "★★★★",
+        "menu": "dinner",
+        "meat": "seafood",
+        "img": "https://i.ibb.co/ry5XTTQ/thai.jpg",
+        "shipping": 10
+    
+    },
+    
+    {
+        "category": "thai",
+        "name": "Mixed Dinner",
+        "price": 540,
+        "ratings": "★★★★",
+        "menu": "dinner",
+        "img": "https://i.ibb.co/MhDdb4B/thai1.jpg",
+        "shipping": 10
+    
+    },
+    
+    {
+        "category": "thai",
+        "name": "vegetables soup",
+        "price": 60,
+        "ratings": "★★★★",
+        "menu": "breakfast",
+        "meat": "soup",
+        "img": "https://i.ibb.co/Kj90Tn4/thai2.jpg",
+        "shipping": 10
+    
+    },
   {
-      "category": "breakfast",
-      "name": "English Breakfast",
-      "price": 78,
-      "ratings": "★★★★",
-      "ratingsCount": 3725,
-      "img": "https://i.ibb.co/Y8C9QWM/breakfast.jpg",
-      "shipping": 10
+    "category": "thai",
+    "name": "Chicken french fry",
+    "price": 78,
+    "ratings": "★★★★",
+    "menu": "lunch",
+    "meat": "chicken",
+    "img": "https://i.ibb.co/GkT9gVY/breakfast-2.jpg",
+    "shipping": 10
 
-  },
+},
 
-  {
-      "category": "breakfast",
-      "name": "Light Breakfast",
-      "price": 56,
-      "ratings": "★★★★",
-      "ratingsCount": 3725,
-      "img": "https://i.ibb.co/qNfg7tv/breakfast-1.jpg",
-      "shipping": 10
+{
+    "category": "arabian",
+    "name": "Light Breakfast",
+    "price": 56,
+    "ratings": "★★★★",
+    "menu": "breakfast",
+    "img": "https://i.ibb.co/C8k5KS1/breakfast-3.jpg",
+    "shipping": 10
 
-  },
+},
 
-  {
-      "category": "breakfast",
-      "name": "Heavy Breakfast",
-      "price": 420,
-      "ratings": "★★★★",
-      "ratingsCount": 3725,
-      "img": "https://i.ibb.co/FhkQSyx/breakfast-2.jpg",
-      "shipping": 10
+{
+    "category": "chinese",
+    "name": "Fish vegetables",
+    "price": 70,
+    "ratings": "★★★★",
+    "menu": "lunch",
+    "meat": "fish",
+    "img": "https://i.ibb.co/Zf5gVzM/breakfast-4.jpg",
+    "shipping": 10
 
-  },
+},
 
-  {
-      "category": "breakfast",
-      "name": "Middle Breakfast",
-      "price": 35,
-      "ratings": "★★★★",
-      "ratingsCount": 3725,
-      "img": "https://i.ibb.co/rp7Mv38/breakfast-3.jpg",
-      "shipping": 10
+{
+    "category": "italian",
+    "name": "Fruit salad",
+    "price": 35,
+    "ratings": "★★★★",
+    "menu": "breakfast",
+    "meat": "vegetables",
+    "img": "https://i.ibb.co/wpHQnyQ/breakfast-5.jpg",
+    "shipping": 10
 
-  },
+},
 
-  {
-      "category": "lunch",
-      "name": "English Lunch",
-      "price": 78,
-      "ratings": "★★★★",
-      "ratingsCount": 3725,
-      "img": "https://i.ibb.co/zJ0QTfR/lunch.jpg",
-      "shipping": 10
+{
+    "category": "chinese",
+    "name": "chinese bamboo",
+    "price": 78,
+    "ratings": "★★★★",
+    "menu": "lunch",
+    "img": "https://i.ibb.co/BNvL2K8/chainese-bamboo.jpg",
+    "shipping": 10
 
-  },
+},
 
-  {
-      "category": "lunch",
-      "name": "Light Lunch",
-      "price": 29,
-      "ratings": "★★★★",
-      "ratingsCount": 3725,
-      "img": "https://i.ibb.co/wsmZmBV/lunch-1.jpg",
-      "shipping": 10
+{
+    "category": "chinese",
+    "name": "Chaw mein",
+    "price": 29,
+    "ratings": "★★★★",
+    "menu": "lunch",
+    "meat": "pasta",
+    "img": "https://i.ibb.co/bJ490Z7/chainese-chaw-mein.jpg",
+    "shipping": 10
 
-  },
+},
 
-  {
-      "categories": "chicken",
-      "category": "lunch",
-      "name": "Heavy Lunch",
-      "price": 99,
-      "ratings": "★★★★",
-      "ratingsCount": 3725,
-      "img": "https://i.ibb.co/1Kc9Nf0/lunch-2.jpg",
-      "shipping": 10
+{
+    "category": "chinese",
+    "name": "Chicken balls",
+    "price": 99,
+    "ratings": "★★★★★",
+    "menu": "dinner",
+    "meat": "chicken",
+    "img": "https://i.ibb.co/wKCnZZS/chainese-chicken-balls.jpg",
+    "shipping": 10
 
-  },
+},
 
-  {
-      "category": "lunch",
-      "name": "Middle Lunch",
-      "price": 42,
-      "ratings": "★★★★",
-      "ratingsCount": 3725,
-      "img": "https://i.ibb.co/DgqTrgw/lunch-3.jpg",
-      "shipping": 10
+{
+    "category": "chinese",
+    "name": "chicken rice",
+    "price": 42,
+    "ratings": "★★★",
+    "menu": "lunch",
+    "meat": "chicken",
+    "img": "https://i.ibb.co/p3bnWbT/chainese-chicken-rice.jpg",
+    "shipping": 10
 
-  },
+},
 
-  {
-      "category": "dinner",
-      "name": "English dinner",
-      "price": 30,
-      "ratings": "★★★★",
-      "ratingsCount": 3725,
-      "img": "https://i.ibb.co/Pm7XBp7/dinner.jpg",
-      "shipping": 10
+{
+    "category": "chinese",
+    "name": "Chicken soup",
+    "price": 30,
+    "ratings": "★★★★",
+    "menu": "dinner",
+    "meat": "chicken",
+    "img": "https://i.ibb.co/rZnYrVy/chainese-chicken-soup.jpg",
+    "shipping": 10
 
-  },
+},
 
-  {
-      "category": "dinner",
-      "name": "Light Dinner",
-      "price": 20,
-      "ratings": "★★★★",
-      "ratingsCount": 3725,
-      "img": "https://i.ibb.co/NWkzdMH/dinner-1.jpg",
-      "shipping": 10
+{
+    "category": "chinese",
+    "name": "Noodles soup",
+    "price": 20,
+    "ratings": "★★★★",
+    "menu": "breakfast",
+    "meat": "soup",
+    "img": "https://i.ibb.co/sbNy0mG/chainese-noodles-soup.jpg",
+    "shipping": 10
 
-  },
+},
 
-  {
-      "category": "dinner",
-      "name": "Heavy Dinner",
-      "price": 120,
-      "ratings": "★★★★",
-      "ratingsCount": 3725,
-      "img": "https://i.ibb.co/mBFWLTP/dinner-2.jpg",
-      "shipping": 10
+{
+    "category": "chinese",
+    "name": "Spring roll",
+    "price": 120,
+    "ratings": "★★★★★",
+    "menu": "breakfast",
+    "img": "https://i.ibb.co/y0rFKW8/chainese-spring-roll.jpg",
+    "shipping": 10
 
-  },
+},
 
-  {
-      "category": "dinner",
-      "name": "Middle Dinner",
-      "price": 40,
-      "ratings": "★★★★",
-      "ratingsCount": 3725,
-      "img": "https://i.ibb.co/mGNR7R9/dinner-3.jpg",
-      "shipping": 10
+{
+    "category": "chinese",
+    "name": "woldrof vegetables",
+    "price": 40,
+    "ratings": "★★★★",
+    "menu": "breakfast",
+    "meat": "vegetables",
+    "img": "https://i.ibb.co/yf1XK9m/chainese-woldrof-vegetables.jpg",
+    "shipping": 10
 
-  }
+},
+{
+    "category": "chinese",
+    "name": "White soup",
+    "price": 78,
+    "ratings": "★★★★",
+    "menu": "breakfast",
+    "meat": "soup",
+    "img": "https://i.ibb.co/Thp0LvD/chainese.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "chinese",
+    "name": "chicken cucumber",
+    "price": 56,
+    "ratings": "★★★★",
+    "menu": "lunch",
+    "meat": "chicken",
+    "img": "https://i.ibb.co/Xkty44R/chinese-chicken-cucumber.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "chinese",
+    "name": "chicken vegetables",
+    "price": 20,
+    "ratings": "★★★★",
+    "menu": "lunch",
+    "meat": "vegetables",
+    "img": "https://i.ibb.co/3WJSqrT/chinese-chicken-vegetables.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "chinese",
+    "name": "vegetables chopsuey",
+    "price": 35,
+    "ratings": "★★★★",
+    "menu": "breakfast",
+    "meat": "vegetables",
+    "img": "https://i.ibb.co/WfKBLd6/chinese-vegetables-chopsuey.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "italian",
+    "name": "chicken vegetables",
+    "price": 28,
+    "ratings": "★★★★",
+    "menu": "lunch",
+    "meat": "chicken",
+    "img": "https://i.ibb.co/0cjwVh8/dinner.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "italian",
+    "name": "chicken balls",
+    "price": 29,
+    "ratings": "★★★★",
+    "menu": "lunch",
+    "meat": "chicken",
+    "img": "https://i.ibb.co/TgJm40R/dinner-1.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "thai",
+    "name": "chrimp vegetables",
+    "price": 99,
+    "ratings": "★★★★",
+    "menu": "lunch",
+    "meat": "seafood",
+    "img": "https://i.ibb.co/MnxWJ32/dinner-2.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "arabian",
+    "name": "French chicken",
+    "price": 42,
+    "ratings": "★★★★",
+    "menu": "lunch",
+    "meat": "chicken",
+    "img": "https://i.ibb.co/Y2KcdBM/dinner-3.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "arabian",
+    "name": "barbque vegetables",
+    "price": 50,
+    "ratings": "★★★★",
+    "menu": "dinner",
+    "meat": "chicken",
+    "img": "https://i.ibb.co/Y874HnB/dinner-4.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "italian",
+    "name": "Italian Arancin",
+    "price": 520,
+    "ratings": "★★★★",
+    "menu": "lunch",
+    "meat": "chicken",
+    "img": "https://i.ibb.co/d7Dvrzy/Italian-Arancin.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "italian",
+    "name": "fried fish",
+    "price": 120,
+    "ratings": "★★★★",
+    "menu": "dinner",
+    "meat": "fish",
+    "img": "https://i.ibb.co/G7RDS8w/italian-fried-fish.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "italian",
+    "name": "Italian Lasagna",
+    "price": 40,
+    "ratings": "★★★★",
+    "menu": "lunch",
+    "meat": "pasta",
+    "img": "https://i.ibb.co/z7s1t4c/Italian-Lasagna.jpg",
+    "shipping": 10
+
+},
+{
+    "category": "italian",
+    "name": "masroom pasta",
+    "price": 340,
+    "ratings": "★★★★",
+    "menu": "lunch",
+    "meat": "pasta",
+    "img": "https://i.ibb.co/9s7QGJ2/italian-masroom-pasta.jpg",
+    "shipping": 10
+
+},
+{
+    "category": "italian",
+    "name": "meatballs pasta",
+    "price": 78,
+    "ratings": "★★★★",
+    "menu": "dinner",
+    "meat": "pasta",
+    "img": "https://i.ibb.co/ZKvzjPW/italian-meatballs-pasta.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "italian",
+    "name": "Italian pasta",
+    "price": 56,
+    "ratings": "★★★★",
+    "menu": "dinner",
+    "meat": "pasta",
+    "img": "https://i.ibb.co/bJV5whz/italian-pasta.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "italian",
+    "name": "noodles pasta",
+    "price": 420,
+    "ratings": "★★★★",
+    "menu": "lunch",
+    "meat": "pasta",
+    "img": "https://i.ibb.co/hCPLxpY/italian-pastan.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "italian",
+    "name": "risotto alla milanese",
+    "price": 235,
+    "ratings": "★★★★",
+    "menu": "dinner",
+    "img": "https://i.ibb.co/qnt6XsB/italian-risotto-alla-milanese.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "italian",
+    "name": "Scrambled Eggs",
+    "price": 78,
+    "ratings": "★★★★",
+    "menu": "breakfast",
+    "img": "https://i.ibb.co/HzfQ4nd/italian-Scrambled-Eggs.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "italian",
+    "name": "Spaghetti Alla Carbonara",
+    "price": 129,
+    "ratings": "★★★★★",
+    "menu": "lunch",
+    "meat": "pasta",
+    "img": "https://i.ibb.co/m6KWDnJ/italian-Spaghetti-Alla-Carbonara.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "italian",
+    "name": "vegetables pasta",
+    "price": 49,
+    "ratings": "★★★★",
+    "menu": "lunch",
+    "meat": "pasta",
+    "img": "https://i.ibb.co/fqyX9ff/italian-vegetables-pasta.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "italian",
+    "name": "italian-Carbonara",
+    "price": 42,
+    "ratings": "★★★★",
+    "menu": "dinner",
+    "meat": "pasta",
+    "img": "https://i.ibb.co/qjyYM4w/italian-Carbonara.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "dinner",
+    "name": "English dinner",
+    "price": 30,
+    "ratings": "★★★★",
+    "menu": "dinner",
+    "img": "https://i.ibb.co/c3msjJv/lunch.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "dinner",
+    "name": "Light Dinner",
+    "price": 20,
+    "ratings": "★★★★",
+    "menu": "dinner",
+    "img": "https://i.ibb.co/c2jxPHb/lunch-1.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "dinner",
+    "name": "Heavy Dinner",
+    "price": 120,
+    "ratings": "★★★★",
+    "menu": "dinner",
+    "img": "https://i.ibb.co/yS8CCLK/lunch-3.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "arabian", 
+    "name": "Al baik nuggets",
+    "price": 78,
+    "ratings": "★★★★",
+    "menu": "lunch",
+    "meat": "chicken",
+    "img": "https://i.ibb.co/pv2VwsQ/arab-albaik-nuggets.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "arabian", 
+    "name": "Bread Breakfast",
+    "price": 56,
+    "ratings": "★★★★",
+    "menu": "breakfast",
+    "img": "https://i.ibb.co/L0cLjJS/arab-bread-breakfast.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "arabian",
+    "name": "Arab kabsa",
+    "price": 80,
+    "ratings": "★★★★",
+    "menu": "dinner",
+    "meat": "chicken",
+    "img": "https://i.ibb.co/ChqP1Sm/arab-kabsa.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "arabian",
+    "name": "Kunafa Dessert",
+    "price": 35,
+    "ratings": "★★★★",
+    "menu": "lunch",
+    "img": "https://i.ibb.co/w7Db7WX/arab-kunafa.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "arabian",
+    "name": "Shawarma Sandwish",
+    "price": 78,
+    "ratings": "★★★★",
+    "menu": "breakfast",
+    "meat": "chicken",
+    "img": "https://i.ibb.co/TkKdqTh/arab-shawarma-sandwish.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "arabian",
+    "name": "Arab mandi",
+    "price": 29,
+    "ratings": "★★★★",
+    "menu": "lunch",
+    "meat": "chicken",
+    "img": "https://i.ibb.co/gyb1txk/arab-mandi.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "arabian",
+    "name": "Arab salad",
+    "price": 19,
+    "ratings": "★★★★",
+    "menu": "breakfast",
+    "img": "https://i.ibb.co/3fhFwJL/arab-salad.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "arabian",
+    "name": "Middle Lunch",
+    "price": 42,
+    "ratings": "★★★★",
+    "menu": "lunch",
+    "img": "https://i.ibb.co/VpRjXnr/arab-baklava.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "arabian",
+    "name": "Arab Shawarma",
+    "price": 30,
+    "ratings": "★★★★",
+    "menu": "breakfast",
+    "meat": "chicken",
+    "img": "https://i.ibb.co/7KWt5YK/arab-shawarma.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "arabian",
+    "name": "Ruz Al Bukhari",
+    "price": 40,
+    "ratings": "★★★★",
+    "menu": "dinner",
+    "meat": "chicken",
+    "img": "https://i.ibb.co/SwXRnHg/arabsuyas.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "arabian",
+    "name": "Light Breakfast",
+    "price": 20,
+    "ratings": "★★★★★",
+    "menu": "breakfast",
+    "img": "https://i.ibb.co/KVBz44Q/breakfast.jpg",
+    "shipping": 10
+
+},
+
+{
+    "category": "arabian",
+    "name": "Fruit vegetables",
+    "price": 15,
+    "ratings": "★★★★",
+    "menu": "breakfast",
+    "meat": "vegetables",
+    "img": "https://i.ibb.co/SRq2kNd/breakfast-1.jpg",
+    "shipping": 10
+
+}
 ]

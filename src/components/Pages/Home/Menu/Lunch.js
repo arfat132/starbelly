@@ -7,7 +7,7 @@ const Lunch = () => {
     useEffect(() => {
         fetch('http://localhost:5000/foods')
             .then(res => res.json())
-            .then(data => setLunch(data.filter(food => food.category.includes('lunch'))))
+            .then(data => setLunch(data.filter(food => food.menu.includes('lunch'))))
     }, [lunchs])
     return (
         <div>
@@ -15,7 +15,7 @@ const Lunch = () => {
                 <div className="container px-20 pb-16 mx-auto">
                     <div className="flex flex-wrap -m-4">
                         {
-                            lunchs.map(lunch => <Food
+                            lunchs.slice(-8).map(lunch => <Food
                                 key={lunch._id}
                                 selectedFood={lunch}
                             ></Food>)

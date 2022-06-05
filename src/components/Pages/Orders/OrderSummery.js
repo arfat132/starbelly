@@ -14,6 +14,8 @@ const OrderSummery = ({ cart }) => {
         total = total + product.price * product.quantity;
         shipping = shipping + product.shipping;
     }
+    const tax = parseFloat((total * 0.1).toFixed(2));
+    const grandTotal = total + shipping + tax;
     return (
         <div className='p-4'>
             <div className='text-gray-700'>

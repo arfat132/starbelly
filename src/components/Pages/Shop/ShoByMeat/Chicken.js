@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Food from '../../../Shared/Food';
 
-const ThaiDishes = () => {
-    const [thai, setThai] = useState([]);
+const Chicken = () => {
+    const [chicken, setChicken] = useState([]);
     const [limit, setLimit] = useState(4);
     const [pageNumber, setPageNumber] = useState(0)
     const [sort, setSort] = useState("Featured");
@@ -10,8 +10,8 @@ const ThaiDishes = () => {
     useEffect(() => {
         fetch(`http://localhost:5000/foods`)
             .then(res => res.json())
-            .then(data => setThai(data.filter(food => food.category.includes('thai'))))
-    }, [thai, limit, pageNumber])
+            .then(data => setChicken(data.filter(food => food.category.includes('chicken'))))
+    }, [chicken, limit, pageNumber])
     return (
         <>
             <div>
@@ -34,12 +34,12 @@ const ThaiDishes = () => {
 
                 <section id='#services' className="text-gray-600 body-font pt-12 auto">
                     <div className="container px-14 pb-16 mx-auto">
-                        {thai?.length ?
+                        {chicken?.length ?
                             <div className="flex flex-wrap -m-4 mb-6">
                                 {
-                                    thai.slice(0, 8).map(thaiDishe => <Food
-                                        key={thaiDishe._id}
-                                        selectedFood={thaiDishe}
+                                    chicken.slice(0, 8).map(chickenDishe => <Food
+                                        key={chickenDishe._id}
+                                        selectedFood={chickenDishe}
                                     ></Food>)
                                 }
                             </div>
@@ -56,16 +56,6 @@ const ThaiDishes = () => {
                             }
 
                         </div>
-
-                        {/* <ul class="inline-flex items-center -space-x-px">
-                        <li class="py-2 px-3 leading-tight text-white bg-red-700   border border-gray-300 hover:bg-gray-100 hover:text-gray-700">
-                            <span class="sr-only">Previous</span>
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg></li>
-                                               <li class="py-2 px-3 leading-tight text-white bg-red-700 border border-gray-300 hover:bg-gray-100 hover:text-gray-700">
-                            <span class="sr-only">Next</span>
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
-                        </li>
-                    </ul> */}
                     </div>
                 </section>
             </div>
@@ -73,4 +63,4 @@ const ThaiDishes = () => {
     );
 };
 
-export default ThaiDishes;
+export default Chicken;

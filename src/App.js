@@ -8,9 +8,7 @@ import Lunch from './components/Pages/Home/Menu/Lunch';
 import Dinner from './components/Pages/Home/Menu/Dinner';
 import Shipping from './components/Pages/OrderProcessing/Shipping/Shipping';
 import Shop from './components/Pages/Shop/Shop';
-import LowToHigh from './components/Pages//Shop/Category/LowToHigh';
 import AllDishes from './components/Pages//Shop/AllDishes';
-import HighToLow from './components/Pages//Shop/Category/HighToLow';
 import RequireAuth from './components/Auth/RequireAuth';
 import SignUp from './components/Auth/SignUp';
 import SignIn from './components/Auth/SignIn';
@@ -25,6 +23,11 @@ import Faq from './components/Pages/Faq/Faq';
 import Contact from './components/Pages/Contact/Contact';
 import Blogs from './components/Pages/Blogs/Blogs';
 import Payment from './components/Pages/OrderProcessing/Payment/Payment';
+import ThaiDishes from './components/Pages/Shop/Category/ThaiDishes';
+import ArabianDishes from './components/Pages/Shop/Category/ArabianDishes';
+import ItalianDishes from './components/Pages/Shop/Category/ItalianDishes';
+import ChineseDishes from './components/Pages/Shop/Category/ChineseDishes';
+import Chicken from './components/Pages/Shop/ShoByMeat/Chicken';
 function App() {
   return (
     <div>
@@ -37,14 +40,15 @@ function App() {
         </Route>
         <Route path="/shop" element={<Shop />} >
           <Route index element={<AllDishes></AllDishes>}></Route>
-          <Route path="arabian" element={<AllDishes></AllDishes>}></Route>
-          <Route path="chainese" element={<LowToHigh></LowToHigh>}></Route>
-          <Route path="italian" element={<HighToLow></HighToLow>}></Route>
-          <Route path="thai" element={<HighToLow></HighToLow>}></Route>
+          <Route path="arabian" element={<ArabianDishes></ArabianDishes>}></Route>
+          <Route path="chinese" element={<ChineseDishes></ChineseDishes>}></Route>
+          <Route path="italian" element={<ItalianDishes></ItalianDishes>}></Route>
+          <Route path="thai" element={<ThaiDishes></ThaiDishes>}></Route>
           <Route path="oneToHundred" element={<OneToHundred></OneToHundred>}></Route>
           <Route path="hundredToThreeHundred" element={<HundredToThreeHundred></HundredToThreeHundred>}></Route>
           <Route path="threeHundredToFiveHundred" element={<ThreeHundredToFiveHundred></ThreeHundredToFiveHundred>}></Route>
           <Route path="fiveHundredToThousand" element={<FiveHundredToThousand></FiveHundredToThousand>}></Route>
+          <Route path="chicken" element={<Chicken></Chicken>}></Route>
         </Route>
         <Route path="/orderProcessing" element={<OrderProcessing />} >
           <Route index element={<Orders></Orders>}></Route>

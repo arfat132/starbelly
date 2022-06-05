@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Food from '../../../Shared/Food';
 
-const ThaiDishes = () => {
-    const [thai, setThai] = useState([]);
+const ArabianDishes = () => {
+    const [arabian, setArabian] = useState([]);
     const [limit, setLimit] = useState(4);
     const [pageNumber, setPageNumber] = useState(0)
     const [sort, setSort] = useState("Featured");
@@ -10,8 +10,8 @@ const ThaiDishes = () => {
     useEffect(() => {
         fetch(`http://localhost:5000/foods`)
             .then(res => res.json())
-            .then(data => setThai(data.filter(food => food.category.includes('thai'))))
-    }, [thai, limit, pageNumber])
+            .then(data => setArabian(data.filter(food => food.category.includes('arabian'))))
+    }, [arabian, limit, pageNumber])
     return (
         <>
             <div>
@@ -34,12 +34,12 @@ const ThaiDishes = () => {
 
                 <section id='#services' className="text-gray-600 body-font pt-12 auto">
                     <div className="container px-14 pb-16 mx-auto">
-                        {thai?.length ?
+                        {arabian?.length ?
                             <div className="flex flex-wrap -m-4 mb-6">
                                 {
-                                    thai.slice(0, 8).map(thaiDishe => <Food
-                                        key={thaiDishe._id}
-                                        selectedFood={thaiDishe}
+                                    arabian.slice(0, 8).map(arabianDishe => <Food
+                                        key={arabianDishe._id}
+                                        selectedFood={arabianDishe}
                                     ></Food>)
                                 }
                             </div>
@@ -73,4 +73,4 @@ const ThaiDishes = () => {
     );
 };
 
-export default ThaiDishes;
+export default ArabianDishes;
