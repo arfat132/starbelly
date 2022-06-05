@@ -31,6 +31,7 @@ import Chicken from './components/Pages/Shop/ShoByMeat/Chicken';
 import Pasta from './components/Pages/Shop/ShoByMeat/Pasta';
 import Fish from './components/Pages/Shop/ShoByMeat/Fish';
 import Seafood from './components/Pages/Shop/ShoByMeat/Seafood';
+import Vegetables from './components/Pages/Shop/ShoByMeat/Vegetables';
 function App() {
   return (
     <div>
@@ -55,6 +56,7 @@ function App() {
           <Route path="pasta" element={<Pasta></Pasta>}></Route>
           <Route path="fish" element={<Fish></Fish>}></Route>
           <Route path="seafood" element={<Seafood></Seafood>}></Route>
+          <Route path="vegetables" element={<Vegetables></Vegetables>}></Route>
         </Route>
         <Route path="/orderProcessing" element={<OrderProcessing />} >
           <Route index element={<Orders></Orders>}></Route>
