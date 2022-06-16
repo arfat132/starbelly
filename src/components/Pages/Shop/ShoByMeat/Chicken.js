@@ -10,8 +10,8 @@ const Chicken = () => {
     useEffect(() => {
         fetch(`http://localhost:5000/foods`)
             .then(res => res.json())
-            .then(data => setChicken(data.filter(food => food.category.includes('chicken'))))
-    }, [chicken, limit, pageNumber])
+            .then(data => console.log(data.filter(chicken => chicken.meat.includes('chicken'))))
+    }, [chicken])
     return (
         <>
             <div>

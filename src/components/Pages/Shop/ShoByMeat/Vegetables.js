@@ -7,10 +7,10 @@ const Vegetables = () => {
     const [pageNumber, setPageNumber] = useState(0)
     const [sort, setSort] = useState("Featured");
 
-    useEffect(() => {
+    useEffect(() => {   
         fetch(`http://localhost:5000/foods`)
             .then(res => res.json())
-            .then(data => setVegetables(data.filter(food => food.category.includes('vegetables'))))
+            .then(data => setVegetables(data.filter(food => food.meat.includes('vegetables'))))
     }, [vegetables, limit, pageNumber])
     return (
         <>
@@ -30,7 +30,7 @@ const Vegetables = () => {
                         <option value="low">Low to high</option>
                         <option value="high">High to Low</option>
                     </select></p>
-            </div>
+            </div>  
 
             <section id='#services' className="text-gray-600 body-font pt-12 auto">
                 <div className="container px-14 pb-16 mx-auto">

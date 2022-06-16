@@ -125,6 +125,7 @@
         "price": 540,
         "ratings": "★★★★",
         "menu": "dinner",
+        "meat": "chicken",
         "img": "https://i.ibb.co/MhDdb4B/thai1.jpg",
         "shipping": 10
     
@@ -136,7 +137,7 @@
         "price": 60,
         "ratings": "★★★★",
         "menu": "breakfast",
-        "meat": "soup",
+        "meat": "vegetables",
         "img": "https://i.ibb.co/Kj90Tn4/thai2.jpg",
         "shipping": 10
     
@@ -159,6 +160,7 @@
     "price": 56,
     "ratings": "★★★★",
     "menu": "breakfast",
+    "meat": "vegetables",
     "img": "https://i.ibb.co/C8k5KS1/breakfast-3.jpg",
     "shipping": 10
 
@@ -194,6 +196,7 @@
     "price": 78,
     "ratings": "★★★★",
     "menu": "lunch",
+    "meat": "vegetables",
     "img": "https://i.ibb.co/BNvL2K8/chainese-bamboo.jpg",
     "shipping": 10
 
@@ -253,7 +256,7 @@
     "price": 20,
     "ratings": "★★★★",
     "menu": "breakfast",
-    "meat": "soup",
+    "meat": "pasta",
     "img": "https://i.ibb.co/sbNy0mG/chainese-noodles-soup.jpg",
     "shipping": 10
 
@@ -265,6 +268,7 @@
     "price": 120,
     "ratings": "★★★★★",
     "menu": "breakfast",
+    "meat": "chicken",
     "img": "https://i.ibb.co/y0rFKW8/chainese-spring-roll.jpg",
     "shipping": 10
 
@@ -477,6 +481,7 @@
     "price": 235,
     "ratings": "★★★★",
     "menu": "dinner",
+    "meat": "pasta",
     "img": "https://i.ibb.co/qnt6XsB/italian-risotto-alla-milanese.jpg",
     "shipping": 10
 
@@ -535,6 +540,7 @@
     "price": 30,
     "ratings": "★★★★",
     "menu": "dinner",
+    "meat": "chicken",
     "img": "https://i.ibb.co/c3msjJv/lunch.jpg",
     "shipping": 10
 
@@ -546,6 +552,7 @@
     "price": 20,
     "ratings": "★★★★",
     "menu": "dinner",
+    "meat": "chicken",
     "img": "https://i.ibb.co/c2jxPHb/lunch-1.jpg",
     "shipping": 10
 
@@ -557,6 +564,7 @@
     "price": 120,
     "ratings": "★★★★",
     "menu": "dinner",
+    "meat": "chicken",
     "img": "https://i.ibb.co/yS8CCLK/lunch-3.jpg",
     "shipping": 10
 
@@ -580,6 +588,7 @@
     "price": 56,
     "ratings": "★★★★",
     "menu": "breakfast",
+    "meat": "vegetables",
     "img": "https://i.ibb.co/L0cLjJS/arab-bread-breakfast.jpg",
     "shipping": 10
 
@@ -603,6 +612,7 @@
     "price": 35,
     "ratings": "★★★★",
     "menu": "lunch",
+    "meat": "dessert",
     "img": "https://i.ibb.co/w7Db7WX/arab-kunafa.jpg",
     "shipping": 10
 
@@ -638,6 +648,7 @@
     "price": 19,
     "ratings": "★★★★",
     "menu": "breakfast",
+    "meat": "vegetables",
     "img": "https://i.ibb.co/3fhFwJL/arab-salad.jpg",
     "shipping": 10
 
@@ -649,6 +660,7 @@
     "price": 42,
     "ratings": "★★★★",
     "menu": "lunch",
+    "meat": "dessert",
     "img": "https://i.ibb.co/VpRjXnr/arab-baklava.jpg",
     "shipping": 10
 
@@ -684,6 +696,7 @@
     "price": 20,
     "ratings": "★★★★★",
     "menu": "breakfast",
+    "meat": "vegetables",
     "img": "https://i.ibb.co/KVBz44Q/breakfast.jpg",
     "shipping": 10
 

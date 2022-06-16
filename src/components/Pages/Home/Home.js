@@ -15,7 +15,7 @@ const Home = () => {
             <div>
                 <div class="hero h-[500px]  lg:h-[900px] bg-[url(https://i.ibb.co/n39zKXK/banner4.png)]">
                     <div class="hero-overlay bg-opacity-0"></div>
-                    <div class="hero-content text-left text-neutral-content sm:ml-0 lg:ml-[-550px] lg:w-[700px] md:w-[700px]">
+                    <div class="hero-content text-left text-neutral-content sm:ml-0 lg:ml-[-700px] lg:w-[700px] md:w-[700px]">
                         <div class="-z-50">
                             <h1 class="mb-5 text-2xl lg:text-5xl font-bold font-mono text-red-700">Enjoy delicious foods <br />with Starbelly</h1>
                             <p class="mb-5 text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis repellat culpa itaque consequatur accusamus enim perspiciatis maxime numquam doloribus.</p>
@@ -27,7 +27,7 @@ const Home = () => {
             <Info></Info>
             <MakesSpecial></MakesSpecial>
             <div>
-                <div class="hero h-[400px] bg-[url(https://i.ibb.co/qL8C055/d.png)]">
+                <div class="hero h-[450px] bg-[url(https://i.ibb.co/qL8C055/d.png)]">
                     <div class="hero-overlay bg-opacity-0"></div>
                     <div class="hero-content text-center text-neutral-content">
                         <div class="">
