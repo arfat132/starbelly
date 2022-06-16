@@ -4,7 +4,7 @@ import MenuItem from './MenuItem';
 const MenuList = () => {
     const [menu, setMenu] = useState([]);
     useEffect(() => {
-        fetch("menulist.json")
+        fetch("https://whispering-tor-70957.herokuapp.com/menuList")
             .then(res => res.json())
             .then(data => setMenu(data))
     }, [menu])
@@ -15,7 +15,7 @@ const MenuList = () => {
             <div className='grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1 my-6 mx-auto w-full px-6 lg:px-0'>
                 {
                     menu.map(menuItem => <MenuItem
-                        key={menuItem.id}
+                        key={menuItem._id}
                         menuItem={menuItem}
                     ></MenuItem>)
                 }

@@ -7,8 +7,8 @@ import { Pagination } from "swiper";
 
 const OurClients = () => {
     return (
-        <section class="my-10">
-            <div class="container px-6 mx-auto">
+        <section className="my-10">
+            <div className="container px-6 mx-auto">
                 <h1 className='text-center font-mono font-bold text-3xl mb-10'>Our Clients</h1>
                 <>
                     <Swiper

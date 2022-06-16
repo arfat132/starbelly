@@ -6,7 +6,7 @@ const FiveHundredToThousand = () => {
     const [limit, setLimit] = useState(4);
     const [pageNumber, setPageNumber] = useState(0)
     useEffect(() => {
-        fetch(`http://localhost:5000/fiveHundredToThousand?limit=${limit}&pageNumber=${pageNumber}`)
+        fetch(`https://whispering-tor-70957.herokuapp.com/fiveHundredToThousand?limit=${limit}&pageNumber=${pageNumber}`)
             .then(res => res.json())
             .then(data => setDishes(data))
     }, [limit, pageNumber])
@@ -14,7 +14,7 @@ const FiveHundredToThousand = () => {
         <div>
             <div className='flex justify-between bg-gray-200 bg-opacity-60 mt-4 px-4 py-3'>
                 <p className='flex items-center ml-4  text-gray-500'>Paginate by
-                    <select onChange={(e) => setLimit(e.target.value)} class="py-2 px-2 ml-3 bg-red-700 text-white hover:border-none rounded-none">
+                    <select onChange={(e) => setLimit(e.target.value)} className="py-2 px-2 ml-3 bg-red-700 text-white hover:border-none rounded-none">
                         <option>4</option>
                         <option>8</option>
                         <option>12</option>
@@ -22,7 +22,7 @@ const FiveHundredToThousand = () => {
                         <option>20</option>
                     </select></p>
                 <p className='flex items-center text-gray-500'>Sort by
-                    <select class="py-2 px-2 ml-3 bg-red-700 text-white hover:border-none rounded-none">
+                    <select className="py-2 px-2 ml-3 bg-red-700 text-white hover:border-none rounded-none">
                         <option>Featured</option>
                         <option>Low to high</option>
                         <option>Hight to Low</option>
@@ -46,7 +46,7 @@ const FiveHundredToThousand = () => {
 
                     <div className='mx-auto text-center mb-6 "inline-flex items-center -space-x-px'>
                         {
-                            [...Array(5).keys()].map(number => <div onClick={() => setPageNumber(number)} class={`inline-flex items-center -space-x-px py-2 px-3 leading-tight text-white bg-red-700 border border-gray-300 ${pageNumber === number ? "bg-red-600" : "bg-red-700"}`}>
+                            [...Array(5).keys()].map(number => <div onClick={() => setPageNumber(number)} className={`inline-flex items-center -space-x-px py-2 px-3 leading-tight text-white bg-red-700 border border-gray-300 ${pageNumber === number ? "bg-red-600" : "bg-red-700"}`}>
 
                                 {number + 1}</div>)
                         }

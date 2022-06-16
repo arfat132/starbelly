@@ -17,7 +17,7 @@ const MenuDetails = () => {
 
 
   useEffect(() => {
-    fetch(`http://localhost:5000/foods/${id}`)
+    fetch(`https://whispering-tor-70957.herokuapp.com/foods/${id}`)
       .then(res => res.json())
       .then(data => setMenuDetails(data))
   }, [id])
@@ -26,15 +26,15 @@ const MenuDetails = () => {
 
   return (
     <>
-      <div class="drawer drawer-end pt-20">
-        <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
-        <div class="drawer-content">
+      <div className="drawer drawer-end pt-20">
+        <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
+        <div className="drawer-content">
           {/* <!-- Page content here --> */}
-          <div class="text-gray-600 body-font px-12 font-mono">
-            <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-              <div class="bg-transparent lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900">{menuDetails.name}</h1>
-                <p class="mb-8 leading-relaxed text-lg">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+          <div className="text-gray-600 body-font px-12 font-mono">
+            <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+              <div className="bg-transparent lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900">{menuDetails.name}</h1>
+                <p className="mb-8 leading-relaxed text-lg">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
                 <div className='flex'>
                   <span className='font-extrabold text-black text-4xl mb-6'>${menuDetails.price}</span>
                   <div className='mx-auto mb-6'>
@@ -43,7 +43,7 @@ const MenuDetails = () => {
                     <button onClick={() => setCount(count + 1)} className='bg-red-700 px-4 py-1 border border-red-700 text-white'>+</button>
                   </div>
                 </div>
-                <label for="my-drawer-4" class="drawer-button btn rounded-none border-none mb-6 bg-red-700 text-white uppercase font-bold text-xl py-2 mt-6 hover:bg-red-600"><AiOutlineShoppingCart className='text-white mr-2 text-2xl flex' />Buy Now</label>
+                <label for="my-drawer-4" className="drawer-button btn rounded-none border-none mb-6 bg-red-700 text-white uppercase font-bold text-xl py-2 mt-6 hover:bg-red-600"><AiOutlineShoppingCart className='text-white mr-2 text-2xl flex' />Buy Now</label>
                 <>
                   <Swiper
                     slidesPerView={3}
@@ -54,33 +54,33 @@ const MenuDetails = () => {
                     modules={[Pagination]}
                     className="mySwipe"
                   >
-                    <SwiperSlide> <img class="object-cover object-center rounded mx-auto z-0" alt="hero" src={menuDetails.img} /></SwiperSlide>
-                    <SwiperSlide> <img class="object-cover object-center rounded mx-auto z-0" alt="hero" src={menuDetails.img} /></SwiperSlide>
-                    <SwiperSlide> <img class="object-cover object-center rounded mx-auto z-0" alt="hero" src={menuDetails.img} /></SwiperSlide>
-                    <SwiperSlide> <img class="object-cover object-center rounded mx-auto z-0" alt="hero" src={menuDetails.img} /></SwiperSlide>
-                    <SwiperSlide> <img class="object-cover object-center rounded mx-auto z-0" alt="hero" src={menuDetails.img} /></SwiperSlide>
+                    <SwiperSlide> <img className="object-cover object-center rounded mx-auto z-0" alt="hero" src={menuDetails.img} /></SwiperSlide>
+                    <SwiperSlide> <img className="object-cover object-center rounded mx-auto z-0" alt="hero" src={menuDetails.img} /></SwiperSlide>
+                    <SwiperSlide> <img className="object-cover object-center rounded mx-auto z-0" alt="hero" src={menuDetails.img} /></SwiperSlide>
+                    <SwiperSlide> <img className="object-cover object-center rounded mx-auto z-0" alt="hero" src={menuDetails.img} /></SwiperSlide>
+                    <SwiperSlide> <img className="object-cover object-center rounded mx-auto z-0" alt="hero" src={menuDetails.img} /></SwiperSlide>
                   </Swiper>
                 </>
               </div>
 
-              <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                <img class="object-cover object-center rounded mx-auto z-0" alt="hero" src={menuDetails.img} />
+              <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img className="object-cover object-center rounded mx-auto z-0" alt="hero" src={menuDetails.img} />
               </div>
             </div>
           </div>
           <Footer></Footer>
         </div>
-        <div class="drawer-side">
-          <label for="my-drawer-4" class="drawer-overlay"></label>
-          <ul class="menu overflow-y-auto w-80 bg-base-100 text-base-content">
+        <div className="drawer-side">
+          <label for="my-drawer-4" className="drawer-overlay"></label>
+          <ul className="menu overflow-y-auto w-80 bg-base-100 text-base-content">
             {/* <!-- Sidebar content here --> */}
-            <div class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content font-mono">
+            <div className="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content font-mono">
               <div className='flex justify-between items-center'>
-              <h1 className='font-bold text-2xl mb-2'>Your Cart</h1>
+                <h1 className='font-bold text-2xl mb-2'>Your Cart</h1>
               </div>
               <hr />
               <div className='flex'>
-                <img className='w-24 ' src={menuDetails.img} alt="" srcset="" />
+                <img className='w-24 ' src={menuDetails.img} alt="" srcSet="" />
                 <div>
                   <h4 className='font-bold mt-2 text-gray-700'>{menuDetails.name}</h4>
                   <h5 className='capitalize font-sm mb-4 mr-16'>{menuDetails.category}</h5>

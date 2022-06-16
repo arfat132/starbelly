@@ -4,8 +4,8 @@ import spoons from '../../Assests/icons/spoons.png'
 import chefCap from '../../Assests/icons/chefCap.png'
 const MakesSpecial = () => {
     return (
-        <section class="text-gray-700 body-font px-12">
-            <div class="container mx-auto px-5 mb-16 grid lg:grid-cols-2 sm:grid-cols-1 my-6 items-center gap-5">
+        <section className="text-gray-700 body-font px-12">
+            <div className="container mx-auto px-5 mb-16 grid lg:grid-cols-2 sm:grid-cols-1 my-6 items-center gap-5">
                 <div>
                     <h1 className='font-mono font-bold text-2xl lg:text-4xl pl-0 lg:pl-3 mb-5'>What Makes Our Menus Special ?</h1>
                     <div className="flex items-center font-mono md:w-1/1 mx-auto mb-5">
@@ -36,8 +36,8 @@ const MakesSpecial = () => {
                         </div>
                     </div>
                 </div>
-                <div class="">
-                    <img class="mx-auto pl-10" alt="hero" src="https://i.ibb.co/pdDpsYc/bqq.png" />
+                <div className="">
+                    <img className="mx-auto pl-10" alt="hero" src="https://i.ibb.co/pdDpsYc/bqq.png" />
                 </div>
             </div>
         </section>
